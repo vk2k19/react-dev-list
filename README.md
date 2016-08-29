@@ -13,7 +13,7 @@ Webpack module bundler with babel is used to resolve dependencies and convert RE
 
 # How application is structured
 
-<img src = './folder-Snapshot.png' style='width:250px'/>
+<img src = './folder-snapshot.png' style='width:250px'/>
 
 - package.json holds application dependencies and run configuration
 - Webpack pack configuration in <a href='webpack.config.js'>webpack.config.js</a>
@@ -25,6 +25,6 @@ Webpack module bundler with babel is used to resolve dependencies and convert RE
 - Driving component is index.jsx which includes its dependencies including styles
 
 ## App Snapshot
-<img src = './app-Snapshot.png' style='width:250px'/> 
+<img src = './app-snapshot.png' style='width:250px'/> 
 
 
