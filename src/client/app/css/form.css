@@ -1,0 +1,63 @@
+.form {
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.form label,
+.form .label {
+  padding: 0 5px;
+  font-size: 18px;
+  font-family: 'chalkboard SE';
+  display: inline-block;
+}
+
+.form .lg-Input {
+  font-size: 18px;
+  font-family: 'chalkboard SE';
+  width: 450px;
+  padding: 0 2px;
+}
+
+.form .md-Input {
+  font-size: 18px;
+  font-family: 'chalkboard SE';
+  width: 350px;
+}
+
+.form .nm-Input {
+  font-size: 18px;
+  font-family: 'chalkboard SE';
+  width: 225px;
+}
+
+.form .sm-Input {
+  font-size: 18px;
+  font-family: 'chalkboard SE';
+  width: 150px;
+}
+
+.form .vsm-Input {
+  font-size: 18px;
+  font-family: 'chalkboard SE';
+  width: 100px;
+}
+
+.form .msm-Input {
+  font-size: 18px;
+  font-family: 'chalkboard SE';
+  width: 60px;
+}
+
+.action-item {
+  padding: 5px;
+  font-size: 18px;
+  font-family: 'chalkboard SE';
+}
+
+.action-item:not(:only-child) {
+  margin-right: 10px
+}
+
+.action-item--block {
+  width: 100%;
+}

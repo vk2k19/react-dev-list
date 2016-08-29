@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  font-family: 16px;
+  color: #222;
+  margin: 0 auto;
+  padding: 10px;
+  background: #f1f1f1;
+  max-width: 640px;
+}
+
+.item-name {
+  display: block;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.item-group {
+  padding: 10px 0 10px 0;
+  border-bottom: 2px dashed #ddd;
+}
+.item-group-noborder {
+  border-color: transparent
+}
+
+.item-remove {
+  color: white;
+  display: block;
+  padding: 2px 8px;
+  background-color: red;
+  border: 1px inset black;
+  cursor: pointer;
+  font-family: 'chalkboard SE';
+  font-Size: 18px;
+}
+
+.item-cell {
+  display: table-cell;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.item-list,
+.add-user-form {
+  height: 365px;
+  overflow: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ilike {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'chalkboard SE';
+  background: #444;
+  padding: 5px;
+  text-align: center;
+}
+
+.ilike button {
+  margin: 0 5px;
+  font-size: 12px;
+}
